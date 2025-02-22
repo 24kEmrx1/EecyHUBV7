@@ -1,0 +1,381 @@
+EecyHUB1740155766 = {};
+DRAG_GUI = true
+EecyHUB1740155766["1"] = Instance.new("ScreenGui", game:GetService("CoreGui").RobloxGui);
+EecyHUB1740155766["1"]["Name"] = [[EecyHUB]];
+EecyHUB1740155766["1"]["ResetOnSpawn"] = false
+EecyHUB1740155766["1"]["IgnoreGuiInset"] = true
+EecyHUB1740155766["1"]["DisplayOrder"] = 2147483647
+EecyHUB1740155766["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+EecyHUB1740155766["2"] = Instance.new("Frame", EecyHUB1740155766["1"]);
+EecyHUB1740155766["2"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["2"]["BackgroundColor3"] = Color3.fromRGB(11, 11, 11);
+EecyHUB1740155766["2"]["Size"] = UDim2.new(0.27096, 0, 0.25423, 0);
+EecyHUB1740155766["2"]["Position"] = UDim2.new(0.02186, 0, 0.70274, 0);
+EecyHUB1740155766["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["2"]["Name"] = [[HUBFrame]];
+EecyHUB1740155766["3"] = Instance.new("UICorner", EecyHUB1740155766["2"]);
+EecyHUB1740155766["3"]["Name"] = [[Corner]];
+EecyHUB1740155766["4"] = Instance.new("CanvasGroup", EecyHUB1740155766["2"]);
+EecyHUB1740155766["4"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["4"]["Size"] = UDim2.new(1, 0, 1, 0);
+EecyHUB1740155766["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["4"]["Name"] = [[Container]];
+EecyHUB1740155766["4"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["5"] = Instance.new("Frame", EecyHUB1740155766["4"]);
+EecyHUB1740155766["5"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["5"]["Size"] = UDim2.new(1, 0, 1, 0);
+EecyHUB1740155766["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["5"]["Name"] = [[Main]];
+EecyHUB1740155766["5"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["6"] = Instance.new("TextButton", EecyHUB1740155766["5"]);
+EecyHUB1740155766["6"]["TextWrapped"] = true;
+EecyHUB1740155766["6"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["6"]["TextColor3"] = Color3.fromRGB(241, 241, 241);
+EecyHUB1740155766["6"]["AutoButtonColor"] = false;
+EecyHUB1740155766["6"]["TextSize"] = 14;
+EecyHUB1740155766["6"]["TextScaled"] = true;
+EecyHUB1740155766["6"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+EecyHUB1740155766["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+EecyHUB1740155766["6"]["Size"] = UDim2.new(0.49625, 0, 0.13402, 0);
+EecyHUB1740155766["6"]["Name"] = [[Stop]];
+EecyHUB1740155766["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["6"]["Text"] = [[Remove Tool]];
+EecyHUB1740155766["6"]["Position"] = UDim2.new(0.47875, 0, 0.81898, 0);
+EecyHUB1740155766["7"] = Instance.new("UICorner", EecyHUB1740155766["6"]);
+EecyHUB1740155766["7"]["Name"] = [[Corner]];
+EecyHUB1740155766["8"] = Instance.new("UITextSizeConstraint", EecyHUB1740155766["6"]);
+EecyHUB1740155766["8"]["Name"] = [[TextSize]];
+EecyHUB1740155766["8"]["MaxTextSize"] = 20;
+EecyHUB1740155766["9"] = Instance.new("CanvasGroup", EecyHUB1740155766["5"]);
+EecyHUB1740155766["9"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["9"]["Size"] = UDim2.new(1, 0, 0.16341, 0);
+EecyHUB1740155766["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["9"]["Name"] = [[TitleContainer]];
+EecyHUB1740155766["9"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["a"] = Instance.new("Frame", EecyHUB1740155766["9"]);
+EecyHUB1740155766["a"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["a"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+EecyHUB1740155766["a"]["Size"] = UDim2.new(1, 0, 2.24294, 0);
+EecyHUB1740155766["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["a"]["Name"] = [[TitleFrame]];
+EecyHUB1740155766["b"] = Instance.new("UICorner", EecyHUB1740155766["a"]);
+EecyHUB1740155766["b"]["Name"] = [[Corner]];
+EecyHUB1740155766["c"] = Instance.new("TextLabel", EecyHUB1740155766["9"]);
+EecyHUB1740155766["c"]["TextWrapped"] = true;
+EecyHUB1740155766["c"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["c"]["TextSize"] = 14;
+EecyHUB1740155766["c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+EecyHUB1740155766["c"]["TextScaled"] = true;
+EecyHUB1740155766["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+EecyHUB1740155766["c"]["TextColor3"] = Color3.fromRGB(241, 241, 241);
+EecyHUB1740155766["c"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["c"]["RichText"] = true;
+EecyHUB1740155766["c"]["AnchorPoint"] = Vector2.new(0, 0.5);
+EecyHUB1740155766["c"]["Size"] = UDim2.new(0.36252, 0, 0.79042, 0);
+EecyHUB1740155766["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["c"]["Text"] = [[<b>EecyHUB</b> ]];
+EecyHUB1740155766["c"]["Name"] = [[Title]];
+EecyHUB1740155766["c"]["Position"] = UDim2.new(0.01729, 0, 0.5, 0);
+EecyHUB1740155766["d"] = Instance.new("TextButton", EecyHUB1740155766["5"]);
+EecyHUB1740155766["d"]["TextWrapped"] = true;
+EecyHUB1740155766["d"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["d"]["TextColor3"] = Color3.fromRGB(241, 241, 241);
+EecyHUB1740155766["d"]["AutoButtonColor"] = false;
+EecyHUB1740155766["d"]["TextSize"] = 14;
+EecyHUB1740155766["d"]["TextScaled"] = true;
+EecyHUB1740155766["d"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+EecyHUB1740155766["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+EecyHUB1740155766["d"]["Size"] = UDim2.new(0.30899, 0, 0.13402, 0);
+EecyHUB1740155766["d"]["Name"] = [[Start]];
+EecyHUB1740155766["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["d"]["Text"] = [[Get Tool]];
+EecyHUB1740155766["d"]["Position"] = UDim2.new(0.02458, 0, 0.81898, 0);
+EecyHUB1740155766["e"] = Instance.new("UICorner", EecyHUB1740155766["d"]);
+EecyHUB1740155766["e"]["Name"] = [[Corner]];
+EecyHUB1740155766["f"] = Instance.new("UITextSizeConstraint", EecyHUB1740155766["d"]);
+EecyHUB1740155766["f"]["Name"] = [[TextSize]];
+EecyHUB1740155766["f"]["MaxTextSize"] = 20;
+EecyHUB1740155766["10"] = Instance.new("Frame", EecyHUB1740155766["5"]);
+EecyHUB1740155766["10"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["10"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+EecyHUB1740155766["10"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+EecyHUB1740155766["10"]["Size"] = UDim2.new(0.95, 0, 0.584, 0);
+EecyHUB1740155766["10"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+EecyHUB1740155766["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["10"]["Name"] = [[Settings]];
+EecyHUB1740155766["11"] = Instance.new("UICorner", EecyHUB1740155766["10"]);
+EecyHUB1740155766["11"]["Name"] = [[Corner]];
+EecyHUB1740155766["12"] = Instance.new("TextLabel", EecyHUB1740155766["10"]);
+EecyHUB1740155766["12"]["TextWrapped"] = true;
+EecyHUB1740155766["12"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["12"]["TextSize"] = 14;
+EecyHUB1740155766["12"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+EecyHUB1740155766["12"]["TextScaled"] = true;
+EecyHUB1740155766["12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+EecyHUB1740155766["12"]["TextColor3"] = Color3.fromRGB(41, 41, 41);
+EecyHUB1740155766["12"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["12"]["RichText"] = true;
+EecyHUB1740155766["12"]["Size"] = UDim2.new(0.96805, 0, 0.10385, 0);
+EecyHUB1740155766["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["12"]["Text"] = [[Settings]];
+EecyHUB1740155766["12"]["Name"] = [[SettingsText]];
+EecyHUB1740155766["12"]["Position"] = UDim2.new(0.03195, 0, 0.05025, 0);
+EecyHUB1740155766["13"] = Instance.new("TextButton", EecyHUB1740155766["10"]);
+EecyHUB1740155766["13"]["TextWrapped"] = true;
+EecyHUB1740155766["13"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["13"]["TextColor3"] = Color3.fromRGB(241, 241, 241);
+EecyHUB1740155766["13"]["AutoButtonColor"] = false;
+EecyHUB1740155766["13"]["TextSize"] = 14;
+EecyHUB1740155766["13"]["TextScaled"] = true;
+EecyHUB1740155766["13"]["BackgroundColor3"] = Color3.fromRGB(26, 26, 26);
+EecyHUB1740155766["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+EecyHUB1740155766["13"]["Size"] = UDim2.new(0.25715, 0, 0.27387, 0);
+EecyHUB1740155766["13"]["Name"] = [[R6]];
+EecyHUB1740155766["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["13"]["Text"] = [[R6]];
+EecyHUB1740155766["13"]["Position"] = UDim2.new(0.22048, 0, 0.64489, 0);
+EecyHUB1740155766["14"] = Instance.new("UICorner", EecyHUB1740155766["13"]);
+EecyHUB1740155766["14"]["Name"] = [[Corner]];
+EecyHUB1740155766["15"] = Instance.new("UIStroke", EecyHUB1740155766["13"]);
+EecyHUB1740155766["15"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+EecyHUB1740155766["15"]["Name"] = [[Stroke]];
+EecyHUB1740155766["15"]["Thickness"] = 2;
+EecyHUB1740155766["15"]["Color"] = Color3.fromRGB(233, 4, 107);
+EecyHUB1740155766["16"] = Instance.new("TextButton", EecyHUB1740155766["10"]);
+EecyHUB1740155766["16"]["TextWrapped"] = true;
+EecyHUB1740155766["16"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["16"]["TextColor3"] = Color3.fromRGB(241, 241, 241);
+EecyHUB1740155766["16"]["AutoButtonColor"] = false;
+EecyHUB1740155766["16"]["TextSize"] = 14;
+EecyHUB1740155766["16"]["TextScaled"] = true;
+EecyHUB1740155766["16"]["BackgroundColor3"] = Color3.fromRGB(26, 26, 26);
+EecyHUB1740155766["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+EecyHUB1740155766["16"]["Size"] = UDim2.new(0.25715, 0, 0.27387, 0);
+EecyHUB1740155766["16"]["Name"] = [[R15]];
+EecyHUB1740155766["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["16"]["Text"] = [[R15]];
+EecyHUB1740155766["16"]["Position"] = UDim2.new(0.51766, 0, 0.64489, 0);
+EecyHUB1740155766["17"] = Instance.new("UICorner", EecyHUB1740155766["16"]);
+EecyHUB1740155766["17"]["Name"] = [[Corner]];
+EecyHUB1740155766["18"] = Instance.new("UIStroke", EecyHUB1740155766["16"]);
+EecyHUB1740155766["18"]["Transparency"] = 1;
+EecyHUB1740155766["18"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+EecyHUB1740155766["18"]["Name"] = [[Stroke]];
+EecyHUB1740155766["18"]["Thickness"] = 2;
+EecyHUB1740155766["18"]["Color"] = Color3.fromRGB(233, 4, 107);
+EecyHUB1740155766["19"] = Instance.new("Frame", EecyHUB1740155766["10"]);
+EecyHUB1740155766["19"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["19"]["BackgroundColor3"] = Color3.fromRGB(233, 4, 107);
+EecyHUB1740155766["19"]["Size"] = UDim2.new(0.614, 0, 0.021, 0);
+EecyHUB1740155766["19"]["Position"] = UDim2.new(0.19374, 0, 0.38224, 0);
+EecyHUB1740155766["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["19"]["Name"] = [[SpeedSettings]];
+EecyHUB1740155766["19"]["BackgroundTransparency"] = 0.8;
+EecyHUB1740155766["1a"] = Instance.new("UICorner", EecyHUB1740155766["19"]);
+EecyHUB1740155766["1a"]["Name"] = [[Corner]];
+EecyHUB1740155766["1a"]["CornerRadius"] = UDim.new(1, 0);
+EecyHUB1740155766["1b"] = Instance.new("Frame", EecyHUB1740155766["19"]);
+EecyHUB1740155766["1b"]["ZIndex"] = 2;
+EecyHUB1740155766["1b"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["1b"]["BackgroundColor3"] = Color3.fromRGB(233, 4, 107);
+EecyHUB1740155766["1b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+EecyHUB1740155766["1b"]["Size"] = UDim2.new(3, 0, 3, 0);
+EecyHUB1740155766["1b"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+EecyHUB1740155766["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["1b"]["Name"] = [[Dot]];
+EecyHUB1740155766["1c"] = Instance.new("UICorner", EecyHUB1740155766["1b"]);
+EecyHUB1740155766["1c"]["Name"] = [[Corner]];
+EecyHUB1740155766["1c"]["CornerRadius"] = UDim.new(1, 0);
+EecyHUB1740155766["1d"] = Instance.new("UIAspectRatioConstraint", EecyHUB1740155766["1b"]);
+EecyHUB1740155766["1d"]["Name"] = [[AspectRatio]];
+EecyHUB1740155766["1e"] = Instance.new("LocalScript", EecyHUB1740155766["1b"]);
+EecyHUB1740155766["1e"]["Name"] = [[Percentage]];
+EecyHUB1740155766["1f"] = Instance.new("Frame", EecyHUB1740155766["19"]);
+EecyHUB1740155766["1f"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["1f"]["BackgroundColor3"] = Color3.fromRGB(233, 4, 107);
+EecyHUB1740155766["1f"]["Size"] = UDim2.new(1, 0, 1, 0);
+EecyHUB1740155766["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["1f"]["Name"] = [[ProgressBar]];
+EecyHUB1740155766["20"] = Instance.new("TextLabel", EecyHUB1740155766["10"]);
+EecyHUB1740155766["20"]["TextWrapped"] = true;
+EecyHUB1740155766["20"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["20"]["TextSize"] = 14;
+EecyHUB1740155766["20"]["TextScaled"] = true;
+EecyHUB1740155766["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+EecyHUB1740155766["20"]["TextColor3"] = Color3.fromRGB(51, 51, 51);
+EecyHUB1740155766["20"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["20"]["RichText"] = true;
+EecyHUB1740155766["20"]["Size"] = UDim2.new(0.96805, 0, 0.10385, 0);
+EecyHUB1740155766["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["20"]["Text"] = [[Wait - 0 ]].."[ GLITCHED ]";
+EecyHUB1740155766["20"]["Name"] = [[Title1]];
+EecyHUB1740155766["20"]["Position"] = UDim2.new(0.03195, 0, 0.19263, 0);
+EecyHUB1740155766["21"] = Instance.new("TextLabel", EecyHUB1740155766["10"]);
+EecyHUB1740155766["21"]["TextWrapped"] = true;
+EecyHUB1740155766["21"]["BorderSizePixel"] = 0;
+EecyHUB1740155766["21"]["TextSize"] = 14;
+EecyHUB1740155766["21"]["TextScaled"] = true;
+EecyHUB1740155766["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+EecyHUB1740155766["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+EecyHUB1740155766["21"]["TextColor3"] = Color3.fromRGB(51, 51, 51);
+EecyHUB1740155766["21"]["BackgroundTransparency"] = 1;
+EecyHUB1740155766["21"]["RichText"] = true;
+EecyHUB1740155766["21"]["Size"] = UDim2.new(0.96805, 0, 0.10385, 0);
+EecyHUB1740155766["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+EecyHUB1740155766["21"]["Text"] = [[Animation RIG]];
+EecyHUB1740155766["21"]["Name"] = [[Title2]];
+EecyHUB1740155766["21"]["Position"] = UDim2.new(0.03195, 0, 0.44389, 0);
+EecyHUB1740155766["22"] = Instance.new("LocalScript", EecyHUB1740155766["4"]);
+EecyHUB1740155766["23"] = Instance.new("Configuration", EecyHUB1740155766["22"]);
+EecyHUB1740155766["24"] = Instance.new("NumberValue", EecyHUB1740155766["23"]);
+EecyHUB1740155766["24"]["Name"] = [[Speed]];
+EecyHUB1740155766["24"]["Value"] = 0;
+EecyHUB1740155766["25"] = Instance.new("Configuration", EecyHUB1740155766["2"]);
+EecyHUB1740155766["26"] = Instance.new("IntValue", EecyHUB1740155766["25"]);
+EecyHUB1740155766["26"]["Name"] = [[Speed]];
+EecyHUB1740155766["27"] = Instance.new("UIAspectRatioConstraint", EecyHUB1740155766["2"])
+EecyHUB1740155766["27"]["Name"] = [[AspectRatio]];
+EecyHUB1740155766["27"]["AspectRatio"] = 1.6;
+--local function C_1e()
+--local script = EecyHUB1740155766["1e"];
+--local slider = script.Parent
+--local sliderFrame = slider.Parent
+--local progressBar = sliderFrame:FindFirstChild("ProgressBar")
+--local min = 1
+--local max = 100
+--local function update(input)
+--local relativePosition = math.clamp((input.Position.X - sliderFrame.AbsolutePosition.X) / sliderFrame.AbsoluteSize.X, 0, 1)
+--local steppedValue = math.round(min + (max - min) * relativePosition)
+--slider.Position = UDim2.new((steppedValue - min) / (max - min), 0, slider.Position.Y.Scale, 0)
+--if progressBar then
+--progressBar.Size = UDim2.new((steppedValue - min) / (max - min), 0, progressBar.Size.Y.Scale, 0)end
+--script.Parent.Parent.Parent.Title1.Text = "Wait - " .. steppedValue
+--script.Parent.Parent.Parent.Parent.Parent.LocalScript.Configuration.Speed.Value = steppedValue
+--script.Parent.Parent.Parent.Parent.Parent.Parent.Configuration.Speed.Value = steppedValue;end
+--slider.InputBegan:Connect(function(input)
+--if input.UserInputType == Enum.UserInputType.MouseButton1 then
+--local moveConnection
+--moveConnection = game:GetService("UserInputService").InputChanged:Connect(function(moveInput)
+--if moveInput.UserInputType == Enum.UserInputType.MouseMovement then
+--DRAG_GUI = false
+--update(moveInput)end;end)
+--local releaseConnection
+--releaseConnection = game:GetService("UserInputService").InputEnded:Connect(function(endInput)
+--if endInput.UserInputType == Enum.UserInputType.MouseButton1 then
+--moveConnection:Disconnect()
+--releaseConnection:Disconnect()
+--DRAG_GUI = true
+--end;end)end;end)end;
+--task.spawn(C_1e);
+local function Clloll()
+local script = EecyHUB1740155766["22"];
+local UIS = game:GetService("UserInputService")
+local Frame = script.Parent.Parent
+local dragToggle = nil
+local dragSpeed = 0.75
+local easingStyle = Enum.EasingStyle.Quint
+local easingDirection = Enum.EasingDirection.Out
+local dragInput = nil
+local dragStart = nil
+local startPos = nil
+local dragPos = nil
+local function updateInput(input)
+if not DRAG_GUI then return end;
+local Delta = input.Position - dragStart
+local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+game:GetService("TweenService"):Create(Frame, TweenInfo.new(dragSpeed,easingStyle,easingDirection), {Position = Position}):Play()end
+Frame.InputBegan:Connect(function(input)
+if not DRAG_GUI then return end;
+if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+dragToggle = true
+dragStart = input.Position
+startPos = Frame.Position
+input.Changed:Connect(function()
+if not DRAG_GUI then return end;
+if input.UserInputState == Enum.UserInputState.End then
+dragToggle = false;end;end)end;end)
+Frame.InputChanged:Connect(function(input)
+if not DRAG_GUI then return end;
+if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+dragInput = input;end;end)
+UIS.InputChanged:Connect(function(input)
+if not DRAG_GUI then return end;
+if input == dragInput and dragToggle then
+updateInput(input)end;end)end
+task.spawn(Clloll);
+local function C_22()
+local script = EecyHUB1740155766["22"];
+local player = game.Players.LocalPlayer
+local char = player.Character or player.CharacterAdded:Wait()
+local humanoid = char:WaitForChild("Humanoid")
+local animator = humanoid:FindFirstChildOfClass("Animator") or Instance.new("Animator", humanoid)
+local animation1 = Instance.new("Animation")
+animation1.AnimationId = "rbxassetid://698251653"
+local animation2 = Instance.new("Animation")
+animation2.AnimationId = "rbxassetid://168268306"
+local backpack = game.Players.LocalPlayer.Backpack
+local animTrack1 = animator:LoadAnimation(animation1)
+local animTrack2 = animator:LoadAnimation(animation2)
+local function getWaitTime()
+local AnimSpeed = script.Configuration.Speed.Value
+return AnimSpeed;end
+local function startAnimation()
+local speaker = game.Players.LocalPlayer
+local humanoid = speaker.Character:FindFirstChildWhichIsA("Humanoid")
+local backpack = speaker:FindFirstChildWhichIsA("Backpack")
+if not humanoid or not backpack then return end
+local tool = Instance.new("Tool")
+tool.Name = "Jerk Off"
+tool.CanBeDropped = false
+tool.RequiresHandle = false
+tool.Parent = backpack
+local jorkin = false
+local track = nil
+local function stopTomfoolery()
+jorkin = false
+if track then
+track:Stop()
+track = nil
+end
+end
+local function isR15(character)	return script.Parent.Main.Settings.R6.Stroke.Transparency == 1;end
+tool.Equipped:Connect(function()jorkin = true;end)
+tool.Unequipped:Connect(stopTomfoolery)
+humanoid.Died:Connect(stopTomfoolery)
+while task.wait() do
+if not jorkin then continue end
+local isR15 = isR15()
+if not track then
+local anim = Instance.new("Animation")
+anim.AnimationId = not isR15 and "rbxassetid://72042024" or "rbxassetid://698251653"
+;track = humanoid:LoadAnimation(anim)end
+;track:Play()
+;track:AdjustSpeed(getWaitTime()<50 and 1.5 or 1)
+;track.TimePosition = isR15 and 0.525 or getWaitTime()<2 and 0.65 or 0.68
+while track and track.TimePosition < (getWaitTime()<50 and 0.9 or 0.68)do 
+track:AdjustSpeed(getWaitTime()<50 and 1.5 or 1)
+;task.wait(getWaitTime()+0.055)
+;track.TimePosition = math.min(track.TimePosition + 0.025, 0.65)end;
+if track then
+track:Stop()
+;track = nil;end;end;end;
+local function removeTool()
+if backpack then
+local tool = backpack:FindFirstChild("Jerk Off") or char:FindFirstChild("Jerk Off")
+if tool then
+tool:Destroy()end;end;end
+;script.Parent.Main.Start.MouseButton1Click:Connect(startAnimation)
+;script.Parent.Main.Stop.MouseButton1Click:Connect(removeTool)
+;script.Parent.Main.Settings.R6.MouseButton1Click:Connect(function()
+script.Parent.Main.Settings.R6.Stroke.Transparency = 0
+;script.Parent.Main.Settings.R15.Stroke.Transparency = 1;end)
+;script.Parent.Main.Settings.R15.MouseButton1Click:Connect(function()
+script.Parent.Main.Settings.R6.Stroke.Transparency = 1
+;script.Parent.Main.Settings.R15.Stroke.Transparency = 0
+end)end;task.spawn(C_22);
