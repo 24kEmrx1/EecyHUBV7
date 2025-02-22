@@ -332,7 +332,7 @@ local backpack = speaker:FindFirstChildWhichIsA("Backpack")
 if not humanoid or not backpack then return end
 local tool = Instance.new("Tool")
 tool.Name = "Jerk Off"
-tool.CanBeDropped = false
+tool.CanBeDropped = true
 tool.RequiresHandle = false
 tool.Parent = backpack
 local jorkin = false
@@ -345,7 +345,21 @@ track = nil
 end
 end
 local function isR15(character)	return script.Parent.Main.Settings.R6.Stroke.Transparency == 1;end
-tool.Equipped:Connect(function()jorkin = true;end)
+tool.Equipped:Connect(function()
+jorkin = true
+if not track then
+local anim = Instance.new("Animation")
+anim.AnimationId = not isR15() and "rbxassetid://72042024" or "rbxassetid://698251653"
+track = humanoid:LoadAnimation(anim)
+end
+track:Play()
+;track:AdjustSpeed(getWaitTime()<50 and 1.5 or 1)
+;track.TimePosition = isR15 and 0.525 or getWaitTime()<2 and 0.65 or 0.68
+while track and track.TimePosition < (getWaitTime()<50 and 0.9 or 0.68)do 
+track:AdjustSpeed(getWaitTime()<50 and 1.5 or 1)
+;task.wait(getWaitTime()+0.055)
+;track.TimePosition = math.min(track.TimePosition + 0.025, 0.65)end;
+end)
 tool.Unequipped:Connect(stopTomfoolery)
 humanoid.Died:Connect(stopTomfoolery)
 while task.wait() do
@@ -369,13 +383,13 @@ local function removeTool()
 if backpack then
 local tool = backpack:FindFirstChild("Jerk Off") or char:FindFirstChild("Jerk Off")
 if tool then
-tool:Destroy()end;end;end
+tool.Parent=nil;end;end;end
 ;script.Parent.Main.Start.MouseButton1Click:Connect(startAnimation)
 ;script.Parent.Main.Stop.MouseButton1Click:Connect(removeTool)
 ;script.Parent.Main.Settings.R6.MouseButton1Click:Connect(function()
-script.Parent.Main.Settings.R6.Stroke.Transparency = 0
-;script.Parent.Main.Settings.R15.Stroke.Transparency = 1;end)
+script.Parent.Main.Settings.R6.Stroke.Transparency = 0;
+script.Parent.Main.Settings.R15.Stroke.Transparency = 1;end)
 ;script.Parent.Main.Settings.R15.MouseButton1Click:Connect(function()
-script.Parent.Main.Settings.R6.Stroke.Transparency = 1
-;script.Parent.Main.Settings.R15.Stroke.Transparency = 0
+script.Parent.Main.Settings.R6.Stroke.Transparency = 1;
+script.Parent.Main.Settings.R15.Stroke.Transparency = 0;
 end)end;task.spawn(C_22);
